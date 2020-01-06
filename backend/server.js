@@ -1,5 +1,5 @@
-/*  
-
+/*  Connecting the application to
+    the MongoDB database
 */
 
 const express = require("express");
