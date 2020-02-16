@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import App from './Components/App';
+// import * as products from './products';
+import 'babel-polyfill';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const rootNode = document.querySelector('#root');
+
+ReactDOM.render(<App />, rootNode);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+// products.unregister();
